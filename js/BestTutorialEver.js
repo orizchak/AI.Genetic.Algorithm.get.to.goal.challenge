@@ -9,7 +9,7 @@ canvas.height = height;
 var ctx = canvas.getContext("2d");
 
 var N = 2000;
-var mutationRate = 0.01; //chance that any vector in directions gets changed
+var mutationRate = 0.02; //chance that any vector in directions gets changed
 
 var test = new Population(N);//create a new population with 1000 members
 var goal = new PVector(width / 2, 10);
