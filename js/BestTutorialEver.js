@@ -20,11 +20,11 @@ var obstacles = [];
 
 function createObstacles() {
 
-  obstacles.push({ x: 100, y: 200, width: 400, height: 10 });
+  obstacles.push({ x: 300, y: 200, width: 400, height: 10 });
   obstacles.push({ x: 0, y: 300, width: 400, height: 10 });
-  obstacles.push({ x: 100, y: 400, width: 400, height: 10 });
+  obstacles.push({ x: 300, y: 400, width: 400, height: 10 });
   obstacles.push({ x: 0, y: 500, width: 400, height: 10 });
-  obstacles.push({ x: 100, y: 600, width: 400, height: 10 });
+  obstacles.push({ x: 300, y: 600, width: 400, height: 10 });
   ctx.fillStyle = "grey";
 
   obstacles.forEach(rect => {
